@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="20dp"
+    tools:context=".DetailsActivity">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imgProfile"
+        android:hint="Contact Name"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPhone"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvName"
+        android:hint="Phone no"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvaddress"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvPhone"
+        android:hint="Address"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvemail"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvaddress"
+        android:hint="Email Address"
+        android:textSize="20sp"
+        />
+
+
+
+</RelativeLayout>
